@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "659062377838",
+    "firebase_url": "https://ice-cream-86161.firebaseio.com",
+    "project_id": "ice-cream-86161",
+    "storage_bucket": "ice-cream-86161.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659062377838:android:ee92e9ae22359b2602c57f",
+        "android_client_info": {
+          "package_name": "edu.shu.icecream"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659062377838-a0tth5amoub7m3k8offgrt1aim06jft1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.shu.icecream",
+            "certificate_hash": "505cf7594f06bc27c824a27baaa328f04054a154"
+          }
+        },
+        {
+          "client_id": "659062377838-4lpbefsci8credkhdnp2dpl0bfn4bjup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBq-Aryuhtb458EWydX3So5SVshLwhEC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659062377838-4lpbefsci8credkhdnp2dpl0bfn4bjup.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

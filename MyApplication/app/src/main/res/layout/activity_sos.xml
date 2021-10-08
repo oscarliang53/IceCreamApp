@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/home"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_sos"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/sos" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_injure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_empty_button"
+                android:padding="8dp"
+                android:text="受傷"
+                android:textColor="@color/deepBlue" />
+
+            <Button
+                android:id="@+id/bt_police"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:background="@drawable/background_empty_button"
+                android:padding="8dp"
+                android:text="報警"
+                android:textColor="@color/deepBlue" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_lost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_empty_button"
+                android:padding="8dp"
+                android:text="迷路"
+                android:textColor="@color/deepBlue" />
+
+            <Button
+                android:id="@+id/bt_danger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:background="@drawable/background_empty_button"
+                android:padding="8dp"
+                android:text="危難"
+                android:textColor="@color/deepBlue" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_empty_button"
+                android:padding="8dp"
+                android:text="主畫面"
+                android:textColor="@color/deepBlue" />
+        </LinearLayout>
+    </LinearLayout>
+</layout>
